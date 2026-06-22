@@ -1,0 +1,27 @@
+export const ROLES = {
+  ADMIN: 'ADMIN',
+  INSTRUCTOR: 'INSTRUCTOR',
+  LEARNER: 'LEARNER',
+}
+
+export const MEMBER_STATUS = {
+  ACTIVE: 'ACTIVE',
+  INACTIVE: 'INACTIVE',
+  PENDING: 'PENDING',
+  DORMANT: 'DORMANT',
+}
+
+export const MEMBER_STATUS_LABEL = {
+  ACTIVE: '활성',
+  INACTIVE: '비활성',
+  PENDING: '승인대기',
+  DORMANT: '휴면',
+}
+
+export const LAYOUT = {
+  HEADER_HEIGHT: 80,
+  SIDEBAR_WIDTH: 260,
+  CONTENT_PADDING: 24,
+}
+
+export const DEFAULT_PAGE_SIZE = 20
